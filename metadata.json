@@ -1,0 +1,8 @@
+{
+  "name": "ACSI Industrial Solutions",
+  "description": "A professional industrial engineering and automation services platform featuring an AI-powered technical consultant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

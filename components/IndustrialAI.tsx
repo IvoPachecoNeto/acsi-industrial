@@ -1,0 +1,1 @@
+// Deprecated file - Industrial AI removed as per user request.
