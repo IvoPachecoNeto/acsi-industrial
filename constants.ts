@@ -124,36 +124,36 @@ export const PROJECTS: Project[] = [
     id: 'p1',
     title: 'Dispositivo de Solda Bancos',
     category: 'Industrial',
-    imageUrl: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-x92aa1lwobeg1.jpg?width=648&format=pjpg&auto=webp&s=aa91d665ea10e144b51f9826d3dacb32f7a6119f'
   },
   {
     id: 'p2',
     title: 'Elevador de Cabeçote',
     category: 'Engenharia',
-    imageUrl: 'https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-nahvj2lwobeg1.jpg?width=751&format=pjpg&auto=webp&s=4fbcc9f546f20103f02a4978f64446a6d2421cfc'
   },
   {
     id: 'p3',
     title: 'Linha de Montagem de Estatores',
     category: 'Automação',
-    imageUrl: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-e7t7b1lwobeg1.jpg?width=591&format=pjpg&auto=webp&s=4982651d3c4c9bb4099096976a2205b913716262'
   },
   {
     id: 'p4',
     title: 'Célula de Rebitagem Automática',
     category: 'Mecânica',
-    imageUrl: 'https://images.unsplash.com/photo-1565173293042-436449176465?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-e7l980lwobeg1.jpg?width=935&format=pjpg&auto=webp&s=66c482f4a76293b8747a7691089571ff111d4e96'
   },
   {
     id: 'p5',
     title: 'Manipulador de Chicote Elétrico',
     category: 'Logística',
-    imageUrl: 'https://images.unsplash.com/photo-1516937622548-a5c1e17231ce?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-cpoxb0lwobeg1.jpg?width=578&format=pjpg&auto=webp&s=b0adf7649ac23660f8689f5fd090a5b5b65a7073'
   },
   {
     id: 'p6',
     title: 'Gabarito de Controle Dimensional',
     category: 'Qualidade',
-    imageUrl: 'https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-x92aa1lwobeg1.jpg?width=648&format=pjpg&auto=webp&s=aa91d665ea10e144b51f9826d3dacb32f7a6119f'
   }
 ];
