@@ -31,9 +31,9 @@ export const SERVICES: DetailedService[] = [
     ],
     subProjects: [
       // Link: Ponte Rolante / Industrial Crane
-      { title: 'Laudo de Ponte Rolante 10t', image: 'https://images.unsplash.com/photo-1565043589221-1a6fd497a05c?auto=format&fit=crop&q=80&w=600' },
+      { title: '...', image: 'https://preview.redd.it/acsi-industrieal-v0-e7l980lwobeg1.jpg?width=935&format=pjpg&auto=webp&s=66c482f4a76293b8747a7691089571ff111d4e96' },
       // Link: Estrutura Metálica
-      { title: 'Inspeção de Estruturas Metálicas', image: 'https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&q=80&w=600' }
+      { title: '...', image: 'https://preview.redd.it/acsi-industrieal-v0-nllyq5lwobeg1.jpg?width=1080&crop=smart&auto=webp&s=5709177b2cc12095d4432c2f83da7650c68f14ba' }
     ]
   },
   {
@@ -51,23 +51,22 @@ export const SERVICES: DetailedService[] = [
     ],
     subProjects: [
       // Link: Medição de Precisão
-      { title: 'Gabarito de Controle com Pinos de Precisão', image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=600' },
+      { title: 'Gabarito de Controle com Pinos de Precisão', image: 'https://preview.redd.it/acsi-industrieal-v0-yfrtpykwobeg1.jpg?width=1080&crop=smart&auto=webp&s=1ea7b993882b6a7c474cfae5bc55379d6894e149' },
       // Link: Prensa / Máquina Industrial
-      { title: 'Projeto 3D - Prensa Hidráulica Especial', image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600' },
+      { title: 'Projeto 3D - Prensa Hidráulica Especial', image: 'https://preview.redd.it/acsi-industrieal-v0-ibxzr0lwobeg1.jpg?width=1080&crop=smart&auto=webp&s=a1fed75871ce7269bb626048605915b22ac80ba7' },
       // Link: Desenho Técnico / Gabarito
-      { title: 'Gabarito Dimensional (Vista Frontal)', image: 'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&q=80&w=600' },
+      { title: 'Gabarito Dimensional (Vista Frontal)', image: 'https://preview.redd.it/acsi-industrieal-v0-nahvj2lwobeg1.jpg?width=751&format=pjpg&auto=webp&s=4fbcc9f546f20103f02a4978f64446a6d2421cfc' },
       // Link: Tela de CAD / 3D
-      { title: 'Render 3D - Dispositivo de Controle', image: 'https://images.unsplash.com/photo-1611090332859-994191684c98?auto=format&fit=crop&q=80&w=600' },
+      { title: 'Render 3D - Dispositivo de Controle', image: 'https://preview.redd.it/acsi-industrieal-v0-x92aa1lwobeg1.jpg?width=648&format=pjpg&auto=webp&s=aa91d665ea10e144b51f9826d3dacb32f7a6119f' },
       // Link: Peças de Engenharia
-      { title: 'Projeto 3D - Base de Controle Modular', image: 'https://images.unsplash.com/photo-1581092334651-ddf26f9a09d0?auto=format&fit=crop&q=80&w=600' },
+      { title: 'Projeto 3D ', image: 'https://preview.redd.it/acsi-industrieal-v0-e7t7b1lwobeg1.jpg?width=591&format=pjpg&auto=webp&s=4982651d3c4c9bb4099096976a2205b913716262' },
       // Link: Bancada de Trabalho
-      { title: 'Gabarito Dimensional (Vista Superior)', image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=600' },
       // Link: Pneu / Automotivo
-      { title: 'Suporte Ergonômico para Pneus', image: 'https://images.unsplash.com/photo-1578844251758-2f71da645217?auto=format&fit=crop&q=80&w=600' },
+      { title: 'Suporte Ergonômico para Pneus', image: 'https://preview.redd.it/acsi-industrieal-v0-e7t7b1lwobeg1.jpg?width=591&format=pjpg&auto=webp&s=4982651d3c4c9bb4099096976a2205b913716262' },
       // Link: Engrenagens / Mecanismo
-      { title: 'Detalhamento de Mecanismo Complexo', image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600' },
+      { title: 'Detalhamento de Mecanismo Complexo', image: 'https://preview.redd.it/acsi-industrieal-v0-nllyq5lwobeg1.jpg?width=1080&crop=smart&auto=webp&s=5709177b2cc12095d4432c2f83da7650c68f14ba' },
       // Link: Laboratório de Controle
-      { title: 'Mesa de Controle com Pinos Coloridos', image: 'https://images.unsplash.com/photo-1581092580637-e2f696dc6763?auto=format&fit=crop&q=80&w=600' }
+      { title: 'Mesa de Controle com Pinos Coloridos', image: 'https://preview.redd.it/acsi-industrieal-v0-cpoxb0lwobeg1.jpg?width=578&format=pjpg&auto=webp&s=b0adf7649ac23660f8689f5fd090a5b5b65a7073' }
     ]
   },
   {
@@ -105,15 +104,14 @@ export const TEAM = [
     name: 'Henri Udo Bostelmann Filho',
     role: 'Engenheiro Mecânico',
     // Foto Link: Homem de negócios / Engenheiro
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400',
-    bio: 'Pós-graduado em Engenharia de Segurança do Trabalho com mais de 15 anos de experiência na gestão de projetos voltados à melhoria de processos de fabricação.',
+    image: 'https://preview.redd.it/acsi-industrieal-v0-sjcf32lwobeg1.jpg?width=640&crop=smart&auto=webp&s=7bfe505211ad4ea139277f2f1558280064fb9332',
     experience: ['BMW', 'Faurecia', 'Renault', 'Positivo', 'Perkins']
   },
   {
     name: 'Henrique Kaston Tobler',
     role: 'Engenheiro Mecânico',
     // Foto Link: Engenheiro / Profissional
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400',
+    image: 'https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/491844168_711841858296981_7175786719164976243_n.jpg?ccb=11-4&oh=01_Q5Aa3gHjdFngpdJ_ZEvD_1npECc14DAoTqIZgo2sx5x9DiFxGw&oe=697E0357&_nc_sid=5e03e0&_nc_cat=108',
     bio: 'Especialista em instalações industriais e manutenção aeronáutica, com forte atuação em projetos técnicos e gestão de obras multidisciplinares.',
     experience: ['Atacadão', 'Festval', 'Condor', 'Aviação Clássica']
   }
