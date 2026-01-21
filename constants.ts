@@ -6,7 +6,7 @@ export const COMPANY_INFO = {
   name: 'ACSI',
   subtitle: 'Industrial',
   // Link do Ícone da Logo
-  logoUrl: 'https://cdn-icons-png.flaticon.com/512/3096/3096998.png'
+  logoUrl: 'https://preview.redd.it/d10iwrs7zpeg1.png?width=1080&crop=smart&auto=webp&s=77d23dc4c4bc9e1bd739c5d6dd15c1a0b20c4fcf'
 };
 
 export interface DetailedService extends Service {
