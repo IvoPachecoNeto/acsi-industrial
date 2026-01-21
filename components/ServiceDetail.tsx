@@ -9,6 +9,11 @@ interface ServiceDetailProps {
 }
 
 const ServiceDetail: React.FC<ServiceDetailProps> = ({ service, onBack, onContactClick }) => {
+  // Título personalizado para a seção de Dispositivos e Gabaritos
+  const projectsTitle = service.id === 'dispositivos' 
+    ? "Alguns dos projetos que já concluímos" 
+    : "Exemplos de Projetos Realizados";
+
   return (
     <div className="pt-32 pb-24 bg-white animate-in fade-in duration-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -57,25 +62,27 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ service, onBack, onContac
             </div>
           </div>
 
-          <div className="space-y-8">
-            <h3 className="text-2xl font-black text-[#2D3E50] uppercase tracking-tighter">Exemplos de Projetos Realizados</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="space-y-8 w-full">
+            <h3 className="text-2xl font-black text-[#2D3E50] uppercase tracking-tighter">{projectsTitle}</h3>
+            
+            {/* Grid ajustado para 3 colunas em telas maiores para acomodar as 9 imagens */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {service.subProjects.length > 0 ? service.subProjects.map((p, i) => (
-                <div key={i} className="group relative overflow-hidden rounded-sm shadow-xl aspect-square">
+                <div key={i} className="group relative overflow-hidden rounded-sm shadow-xl aspect-square bg-slate-100">
                   <img src={p.image} alt={p.title} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
-                    <h4 className="text-white font-bold text-lg">{p.title}</h4>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                    <h4 className="text-white font-bold text-xs leading-tight">{p.title}</h4>
                   </div>
                 </div>
               )) : (
-                <div className="col-span-2 p-12 bg-slate-50 border-2 border-dashed border-slate-200 rounded-sm text-center">
+                <div className="col-span-full p-12 bg-slate-50 border-2 border-dashed border-slate-200 rounded-sm text-center">
                   <i className="fa-solid fa-industry text-4xl text-slate-300 mb-4"></i>
                   <p className="text-slate-500 font-bold">Confira nosso portfólio completo para ver centenas de outros projetos nesta área.</p>
                 </div>
               )}
             </div>
             
-            <div className="bg-[#2D3E50] p-8 text-white rounded-sm">
+            <div className="bg-[#2D3E50] p-8 text-white rounded-sm mt-8">
                <div className="text-3xl font-black text-[#A32A26] mb-2">100+</div>
                <div className="text-sm font-bold uppercase tracking-widest opacity-80 mb-4">Projetos de sucesso no currículo</div>
                <p className="text-slate-300 text-sm leading-relaxed">

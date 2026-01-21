@@ -1,0 +1,59 @@
+
+=============================================================================
+MANUAL DE IMAGENS - ACSI INDUSTRIAL
+=============================================================================
+
+INSTRUÇÕES:
+1. Crie uma pasta chamada "images" dentro da pasta "public" do seu projeto.
+2. Salve todas as suas imagens no formato .PNG dentro desta pasta.
+3. Renomeie suas imagens EXATAMENTE como listado abaixo para que o site as encontre.
+
+=============================================================================
+LISTA DE ARQUIVOS NECESSÁRIOS (PASTA: /public/images/)
+=============================================================================
+
+--- IDENTIDADE VISUAL ---
+1.  logo.png
+    -> Destino: Logotipo principal (Cabeçalho, Rodapé e Tela Inicial).
+
+2.  hero_bg.png
+    -> Destino: Imagem de fundo da tela inicial (Banner principal).
+
+--- EQUIPE (SÓCIOS) ---
+3.  henri.png
+    -> Destino: Foto de Henri Udo (Seção Quem Somos).
+
+4.  henrique.png
+    -> Destino: Foto de Henrique Tobler (Seção Quem Somos).
+
+--- DISPOSITIVOS E GABARITOS (GALERIA 3 COLUNAS) ---
+(Renomeie as 9 fotos que você enviou nesta ordem)
+
+5.  gabarito_01.png
+    -> Foto: Gabarito de Controle com Pinos de Precisão (Mesa metálica com pinos verticais).
+
+6.  gabarito_02.png
+    -> Foto: Projeto 3D - Prensa Hidráulica (Máquina azul grande).
+
+7.  gabarito_03.png
+    -> Foto: Gabarito Dimensional Vista Frontal (Base cinza com alças pretas).
+
+8.  gabarito_04.png
+    -> Foto: Render 3D - Dispositivo de Controle (Versão 3D da base com alças).
+
+9.  gabarito_05.png
+    -> Foto: Projeto 3D - Base de Controle Modular (Peças pretas em base bege).
+
+10. gabarito_06.png
+    -> Foto: Gabarito Dimensional Vista Superior (Foto real de cima).
+
+11. gabarito_07.png
+    -> Foto: Suporte Ergonômico para Pneus (Estrutura metálica segurando pneu).
+
+12. gabarito_08.png
+    -> Foto: Detalhamento de Mecanismo Complexo (Render laranja/transparente).
+
+13. gabarito_09.png
+    -> Foto: Mesa de Controle com Pinos Coloridos (Mesa branca com suportes coloridos).
+
+=============================================================================

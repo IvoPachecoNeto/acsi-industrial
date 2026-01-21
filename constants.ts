@@ -1,6 +1,14 @@
 
 import { Service, Project } from './types';
 
+// Configurações Gerais da Empresa (Logo e Textos)
+export const COMPANY_INFO = {
+  name: 'ACSI',
+  subtitle: 'Industrial',
+  // Link do Ícone da Logo
+  logoUrl: 'https://cdn-icons-png.flaticon.com/512/3096/3096998.png'
+};
+
 export interface DetailedService extends Service {
   fullDescription: string;
   features: string[];
@@ -22,8 +30,10 @@ export const SERVICES: DetailedService[] = [
       'Emissão de ART (Anotação de Responsabilidade Técnica)'
     ],
     subProjects: [
-      { title: 'Laudo de Ponte Rolante 10t', image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600' },
-      { title: 'Inspeção de Estruturas Metálicas', image: 'https://images.unsplash.com/photo-1516937622548-a5c1e17231ce?auto=format&fit=crop&q=80&w=600' }
+      // Link: Ponte Rolante / Industrial Crane
+      { title: 'Laudo de Ponte Rolante 10t', image: 'https://images.unsplash.com/photo-1565043589221-1a6fd497a05c?auto=format&fit=crop&q=80&w=600' },
+      // Link: Estrutura Metálica
+      { title: 'Inspeção de Estruturas Metálicas', image: 'https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&q=80&w=600' }
     ]
   },
   {
@@ -40,8 +50,24 @@ export const SERVICES: DetailedService[] = [
       'Modelagem 3D detalhada para fácil manutenção'
     ],
     subProjects: [
-      { title: 'Dispositivo de Solda para Chassi', image: 'https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&q=80&w=600' },
-      { title: 'Gabarito de Montagem Eletrônica', image: 'https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?auto=format&fit=crop&q=80&w=600' }
+      // Link: Medição de Precisão
+      { title: 'Gabarito de Controle com Pinos de Precisão', image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=600' },
+      // Link: Prensa / Máquina Industrial
+      { title: 'Projeto 3D - Prensa Hidráulica Especial', image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600' },
+      // Link: Desenho Técnico / Gabarito
+      { title: 'Gabarito Dimensional (Vista Frontal)', image: 'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&q=80&w=600' },
+      // Link: Tela de CAD / 3D
+      { title: 'Render 3D - Dispositivo de Controle', image: 'https://images.unsplash.com/photo-1611090332859-994191684c98?auto=format&fit=crop&q=80&w=600' },
+      // Link: Peças de Engenharia
+      { title: 'Projeto 3D - Base de Controle Modular', image: 'https://images.unsplash.com/photo-1581092334651-ddf26f9a09d0?auto=format&fit=crop&q=80&w=600' },
+      // Link: Bancada de Trabalho
+      { title: 'Gabarito Dimensional (Vista Superior)', image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=600' },
+      // Link: Pneu / Automotivo
+      { title: 'Suporte Ergonômico para Pneus', image: 'https://images.unsplash.com/photo-1578844251758-2f71da645217?auto=format&fit=crop&q=80&w=600' },
+      // Link: Engrenagens / Mecanismo
+      { title: 'Detalhamento de Mecanismo Complexo', image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600' },
+      // Link: Laboratório de Controle
+      { title: 'Mesa de Controle com Pinos Coloridos', image: 'https://images.unsplash.com/photo-1581092580637-e2f696dc6763?auto=format&fit=crop&q=80&w=600' }
     ]
   },
   {
@@ -78,22 +104,22 @@ export const TEAM = [
   {
     name: 'Henri Udo Bostelmann Filho',
     role: 'Engenheiro Mecânico',
-    image: '/henri.png',
+    // Foto Link: Homem de negócios / Engenheiro
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400',
     bio: 'Pós-graduado em Engenharia de Segurança do Trabalho com mais de 15 anos de experiência na gestão de projetos voltados à melhoria de processos de fabricação.',
     experience: ['BMW', 'Faurecia', 'Renault', 'Positivo', 'Perkins']
   },
   {
     name: 'Henrique Kaston Tobler',
     role: 'Engenheiro Mecânico',
-    image: '/henrique.png',
+    // Foto Link: Engenheiro / Profissional
+    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400',
     bio: 'Especialista em instalações industriais e manutenção aeronáutica, com forte atuação em projetos técnicos e gestão de obras multidisciplinares.',
     experience: ['Atacadão', 'Festval', 'Condor', 'Aviação Clássica']
   }
 ];
 
-export const CLIENTS = [
-  'BMW', 'VOLVO', 'RENAULT', 'ELECTROLUX', 'WEG', 'WHIRLPOOL', 'FORVIA', 'SUMITOMO', 'POSITIVO', 'MAGIUS', 'PERKINS'
-];
+export const CLIENTS: string[] = [];
 
 export const PROJECTS: Project[] = [
   {
