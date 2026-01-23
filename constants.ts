@@ -104,16 +104,17 @@ export const TEAM = [
     name: 'Henri Udo Bostelmann Filho',
     role: 'Engenheiro Mecânico',
     // Foto Link: Homem de negócios / Engenheiro
-    image: 'https://preview.redd.it/acsi-industrieal-v0-sjcf32lwobeg1.jpg?width=640&crop=smart&auto=webp&s=7bfe505211ad4ea139277f2f1558280064fb9332',
-    experience: ['BMW', 'Faurecia', 'Renault', 'Positivo', 'Perkins']
+    image:  'https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/491844168_711841858296981_7175786719164976243_n.jpg?ccb=11-4&oh=01_Q5Aa3gHjdFngpdJ_ZEvD_1npECc14DAoTqIZgo2sx5x9DiFxGw&oe=697E0357&_nc_sid=5e03e0&_nc_cat=108',
+    bio: 'Especialista em instalações industriais e manutenção aeronáutica, com forte atuação em projetos técnicos e gestão de obras multidisciplinares.',
+    experience: []
   },
   {
     name: 'Henrique Kaston Tobler',
     role: 'Engenheiro Mecânico',
     // Foto Link: Engenheiro / Profissional
-    image: 'https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/491844168_711841858296981_7175786719164976243_n.jpg?ccb=11-4&oh=01_Q5Aa3gHjdFngpdJ_ZEvD_1npECc14DAoTqIZgo2sx5x9DiFxGw&oe=697E0357&_nc_sid=5e03e0&_nc_cat=108',
+    image:  'https://preview.redd.it/acsi-industrieal-v0-sjcf32lwobeg1.jpg?width=640&crop=smart&auto=webp&s=7bfe505211ad4ea139277f2f1558280064fb9332',
     bio: 'Especialista em instalações industriais e manutenção aeronáutica, com forte atuação em projetos técnicos e gestão de obras multidisciplinares.',
-    experience: ['Atacadão', 'Festval', 'Condor', 'Aviação Clássica']
+    experience: []
   }
 ];
 
@@ -122,25 +123,25 @@ export const CLIENTS: string[] = [];
 export const PROJECTS: Project[] = [
   {
     id: 'p1',
-    title: 'Dispositivo de Solda Bancos',
+    title: 'Dispositivo de Solda',
     category: 'Industrial',
     imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-x92aa1lwobeg1.jpg?width=648&format=pjpg&auto=webp&s=aa91d665ea10e144b51f9826d3dacb32f7a6119f'
   },
   {
     id: 'p2',
-    title: 'Elevador de Cabeçote',
+    title: 'Máquinas especiais',
     category: 'Engenharia',
     imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-nahvj2lwobeg1.jpg?width=751&format=pjpg&auto=webp&s=4fbcc9f546f20103f02a4978f64446a6d2421cfc'
   },
   {
     id: 'p3',
-    title: 'Linha de Montagem de Estatores',
+    title: 'manipuladores e carros industriais',
     category: 'Automação',
     imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-e7t7b1lwobeg1.jpg?width=591&format=pjpg&auto=webp&s=4982651d3c4c9bb4099096976a2205b913716262'
   },
   {
     id: 'p4',
-    title: 'Célula de Rebitagem Automática',
+    title: 'dispositivos de controle',
     category: 'Mecânica',
     imageUrl: 'https://preview.redd.it/acsi-industrieal-v0-e7l980lwobeg1.jpg?width=935&format=pjpg&auto=webp&s=66c482f4a76293b8747a7691089571ff111d4e96'
   },
