@@ -87,7 +87,7 @@ function App() {
               <h3 className="text-4xl font-extrabold text-[#2D3E50] mb-4">Mais de 100 Projetos Concluídos</h3>
               <div className="w-20 h-1.5 bg-[#A32A26] mx-auto rounded-full"></div>
               <p className="mt-8 text-slate-600 max-w-2xl mx-auto">
-                Confira uma seleção de nossos trabalhos mais recentes em diversas áreas da engenharia mecânica e industrial.
+                Confira alguns projetos que participamos ou atuamos na Industria" na aba portifolio.
               </p>
             </div>
             <Portfolio isFullView={true} onAllProjectsClick={() => {}} onContactClick={navigateToContact} />
