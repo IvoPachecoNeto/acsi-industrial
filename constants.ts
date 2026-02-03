@@ -39,15 +39,15 @@ export const SERVICES: DetailedService[] = [
   {
     id: 'dispositivos',
     title: 'Dispositivos e Gabaritos',
-    description: 'Desenvolvimento de dispositivos de solda, montagem e gabaritos de controle sob medida para processos automatizados.',
-    fullDescription: 'Projetamos e fabricamos dispositivos de alta precisão que garantem repetibilidade e qualidade extrema em processos de manufatura. Desde o conceito 3D até o startup na linha.',
+    description: 'Desenvolvimento de dispositivos de solda, montagem e gabaritos de controle sob medida para processos manuais e automatizados.',
+    fullDescription: 'Projetamos e fabricamos dispositivos de alta precisão que garantem repetibilidade e qualidade em processos de manufatura. Desde o conceito 3D até o startup na linha.',
     icon: 'fa-microchip',
     features: [
       'Dispositivos de solda manuais e robotizados',
-      'Gabaritos de controle dimensional (Go/No-Go)',
+      '(Gabaritos de controle dimensional (PNP))',
       'Sistemas de fixação pneumática e hidráulica',
-      'Integração com sensores de presença e qualidade',
-      'Modelagem 3D detalhada para fácil manutenção'
+      'sistemas de monitoramento de peças',
+      'projetos completos com manuais e detalhes conforme normas vigentes',
     ],
     subProjects: [
       // Link: Medição de Precisão
@@ -71,7 +71,7 @@ export const SERVICES: DetailedService[] = [
   },
   {
     id: 'projetos',
-    title: 'Projetos de Engenharia',
+    title: 'Laudos Técnicos',
     description: 'Engenharia mecânica e industrial com modelagem 3D, detalhamento técnico e acompanhamento de fabricação.',
     fullDescription: 'Serviço completo de engenharia mecânica para modernização ou criação de novos ativos industriais.',
     icon: 'fa-drafting-compass',
@@ -86,7 +86,7 @@ export const SERVICES: DetailedService[] = [
   {
     id: 'maquinas',
     title: 'Máquinas Especiais',
-    description: 'Desenvolvimento de máquinas sob medida, manipuladores e ferramentas especiais para automação de processos.',
+    description: 'Em um cenário industrial cada vez mais competitivo, a busca por eficiência, precisão e produtividade exige soluções que vão além dos equipamentos convencionais. É nesse contexto que as máquinas especiais se tornam fundamentais. Desenvolvidas de forma totalmente personalizada, elas são projetadas para atender necessidades específicas de cada processo produtivo, garantindo desempenho superior e resultados consistentes. Na ACSI Industrial, unimos engenharia avançada, experiência multidisciplinar e tecnologia de ponta para criar equipamentos exclusivos, desenhados exatamente conforme as demandas da sua operação. Cada projeto nasce a partir de um estudo detalhado do processo, identificando gargalos, oportunidades de automação e melhorias que possam elevar o nível de qualidade e segurança.',
     fullDescription: 'Soluções exclusivas para problemas complexos de movimentação e transformação que não existem prontas no mercado.',
     icon: 'fa-cogs',
     features: [
