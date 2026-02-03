@@ -85,16 +85,11 @@ export const SERVICES: DetailedService[] = [
   },
   {
     id: 'maquinas',
-    title: 'Máquinas Especiais',
-    description: 'Em um cenário industrial cada vez mais competitivo, a busca por eficiência, precisão e produtividade exige soluções que vão além dos equipamentos convencionais. É nesse contexto que as máquinas especiais se tornam fundamentais. Desenvolvidas de forma totalmente personalizada, elas são projetadas para atender necessidades específicas de cada processo produtivo, garantindo desempenho superior e resultados consistentes. Na ACSI Industrial, unimos engenharia avançada, experiência multidisciplinar e tecnologia de ponta para criar equipamentos exclusivos, desenhados exatamente conforme as demandas da sua operação. Cada projeto nasce a partir de um estudo detalhado do processo, identificando gargalos, oportunidades de automação e melhorias que possam elevar o nível de qualidade e segurança.',
-    fullDescription: 'Soluções exclusivas para problemas complexos de movimentação e transformação que não existem prontas no mercado.',
-    icon: 'fa-cogs',
-    features: [
-      'Manipuladores pneumáticos e eletrônicos',
-      'Esteiras de transporte inteligente',
-      'Postos de trabalho ergonômicos automatizados',
-      'Sistemas de embalagem sob medida'
-    ],
+title: 'Máquinas Especiais',
+description: 'Em um cenário industrial cada vez mais competitivo, a busca por eficiência, precisão e produtividade exige soluções que vão além dos equipamentos convencionais. É nesse contexto que as máquinas especiais se tornam fundamentais. Desenvolvidas de forma totalmente personalizada, elas são projetadas para atender necessidades específicas de cada processo produtivo, garantindo desempenho superior e resultados consistentes. Na ACSI Industrial, unimos engenharia avançada, experiência multidisciplinar e tecnologia de ponta para criar equipamentos exclusivos, desenhados exatamente conforme as demandas da sua operação. Cada projeto nasce a partir de um estudo detalhado do processo, identificando gargalos, oportunidades de automação e melhorias que possam elevar o nível de qualidade e segurança.',
+fullDescription: 'Soluções exclusivas para problemas complexos de movimentação e transformação que não existem prontas no mercado.',
+icon: 'fa-cogs',
+
     subProjects: []
   }
 ];
