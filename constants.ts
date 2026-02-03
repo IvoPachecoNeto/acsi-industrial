@@ -59,10 +59,8 @@ export const SERVICES: DetailedService[] = [
       // Link: Tela de CAD / 3D
       { title: 'Render 3D - Dispositivo de Controle', image: 'https://preview.redd.it/acsi-industrieal-v0-x92aa1lwobeg1.jpg?width=648&format=pjpg&auto=webp&s=aa91d665ea10e144b51f9826d3dacb32f7a6119f' },
       // Link: Peças de Engenharia
-      { title: 'Projeto 3D ', image: 'https://preview.redd.it/acsi-industrieal-v0-e7t7b1lwobeg1.jpg?width=591&format=pjpg&auto=webp&s=4982651d3c4c9bb4099096976a2205b913716262' },
       // Link: Bancada de Trabalho
       // Link: Pneu / Automotivo
-      { title: 'Suporte Ergonômico para Pneus', image: 'https://preview.redd.it/acsi-industrieal-v0-e7t7b1lwobeg1.jpg?width=591&format=pjpg&auto=webp&s=4982651d3c4c9bb4099096976a2205b913716262' },
       // Link: Engrenagens / Mecanismo
       { title: 'Detalhamento de Mecanismo Complexo', image: 'https://preview.redd.it/acsi-industrieal-v0-nllyq5lwobeg1.jpg?width=1080&crop=smart&auto=webp&s=5709177b2cc12095d4432c2f83da7650c68f14ba' },
       // Link: Laboratório de Controle
@@ -99,8 +97,8 @@ export const TEAM = [
     name: 'Henri Udo Bostelmann Filho',
     role: 'Engenheiro Mecânico',
     // Foto Link: Homem de negócios / Engenheiro
-    image:  'https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/491844168_711841858296981_7175786719164976243_n.jpg?ccb=11-4&oh=01_Q5Aa3gHjdFngpdJ_ZEvD_1npECc14DAoTqIZgo2sx5x9DiFxGw&oe=697E0357&_nc_sid=5e03e0&_nc_cat=108',
-    bio: 'Especialista em instalações industriais e manutenção aeronáutica, com forte atuação em projetos técnicos e gestão de obras multidisciplinares.',
+    image:  'https://preview.redd.it/acsi-industrieal-v0-sjcf32lwobeg1.jpg?width=640&crop=smart&auto=webp&s=7bfe505211ad4ea139277f2f1558280064fb9332',
+    bio: 'Sou engenheiro mecânico com pós-graduação em Engenharia de Segurança do Trabalho e mais de 15 anos de experiência na gestão e execução de projetos voltados à melhoria de processos de fabricação. Atuei em diferentes segmentos industriais, liderando iniciativas que geraram avanços significativos em eficiência operacional e qualidade. Trabalho desde a concepção até a entrega final de projetos, incluindo definição técnica, fabricação, montagem, instalação e startup. Desenvolvi máquinas especiais, gabaritos, dispositivos de solda, sistemas de manipulação e outros meios de produção, sempre com foco em inovação, segurança e melhoria contínua. Tenho perfil analítico, visão sistêmica e forte atuação prática no chão de fábrica, integrando tecnologia, produtividade e sustentabilidade aos processos',
     experience: []
   },
   {
@@ -108,7 +106,7 @@ export const TEAM = [
     role: 'Engenheiro Mecânico',
     // Foto Link: Engenheiro / Profissional
     image:  'https://preview.redd.it/acsi-industrieal-v0-sjcf32lwobeg1.jpg?width=640&crop=smart&auto=webp&s=7bfe505211ad4ea139277f2f1558280064fb9332',
-    bio: 'Especialista em instalações industriais e manutenção aeronáutica, com forte atuação em projetos técnicos e gestão de obras multidisciplinares.',
+    bio: 'Sou Engenheiro Mecânico com sólida experiência no setor industrial, atuando em projetos técnicos, manutenção e gestão de obras. Trabalhei por mais de seis anos supervisionando obras de sistemas de refrigeração comercial, liderando equipes multidisciplinares nas áreas civil, mecânica e elétrica, garantindo a entrega completa e funcional das instalações. Também acumulo mais de cinco anos de experiência em instalações industriais, incluindo implantação de máquinas e equipamentos, construção de galpões, infraestrutura de utilidades e integração de células robotizadas. Minha atuação envolve a gestão de prazos, custos, qualidade e segurança, assegurando eficiência e confiabilidade em projetos no ambiente fabril',
     experience: []
   }
 ];
