@@ -12,12 +12,13 @@ const Team: React.FC = () => {
             <h3 className="text-4xl font-extrabold text-[#2D3E50] mb-8">Perfil Profissional</h3>
             <div className="p-8 bg-slate-50 border-l-4 border-[#A32A26]">
               <p className="text-slate-600 leading-relaxed italic">
-                "Agregando nossas experiências e com vontade de crescer, fundamos a ACSI, empresa com sólida base em engenharia e gestão de projetos industriais."
+                "Agregando nossas experiências e com vontade de crescer, fundamos a ACSI, empresa com sólida base em engenharia e gestão de projetos industriais. Somos especialistas em desenvolver e gerenciar projetos técnicos — desde dispositivos e gabaritos até células industriais completas. Atuamos com foco em eficiência, qualidade e cumprimento de prazos. Nosso diferencial é entender as necessidades do cliente e entregar soluções personalizadas, acompanhando cada etapa do projeto até a implantação. Na ACSI, transformamos ideias em soluções industriais inteligentes e eficazes.
+"
               </p>
             </div>
             
             <div className="mt-12 space-y-4">
-              <h4 className="font-bold text-slate-900 uppercase tracking-wider text-sm">Especialização em Aviação</h4>
+              <h4 className="font-bold text-slate-900 uppercase tracking-wider text-sm"></h4>
               <p className="text-slate-600 text-sm">
                 Atuação especializada em aeronaves clássicas e experimentais, com foco em reformas completas de célula, motor e aviônicos.
               </p>
