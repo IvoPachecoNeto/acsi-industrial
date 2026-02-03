@@ -106,7 +106,7 @@ export const TEAM = [
     name: 'Henrique Kaston Tobler',
     role: 'Engenheiro Mecânico',
     // Foto Link: Engenheiro / Profissional
-    image:  'https://preview.redd.it/acsi-industrieal-v0-sjcf32lwobeg1.jpg?width=640&crop=smart&auto=webp&s=7bfe505211ad4ea139277f2f1558280064fb9332',
+    image:  'https://preview.redd.it/ie7wz5tn3ahg1.png?width=640&crop=smart&auto=webp&s=594fcb2b7b51ee68e4fd9b0b04cb911659dd87ce',
     bio: 'Sou Engenheiro Mecânico com sólida experiência no setor industrial, atuando em projetos técnicos, manutenção e gestão de obras. Trabalhei por mais de seis anos supervisionando obras de sistemas de refrigeração comercial, liderando equipes multidisciplinares nas áreas civil, mecânica e elétrica, garantindo a entrega completa e funcional das instalações. Também acumulo mais de cinco anos de experiência em instalações industriais, incluindo implantação de máquinas e equipamentos, construção de galpões, infraestrutura de utilidades e integração de células robotizadas. Minha atuação envolve a gestão de prazos, custos, qualidade e segurança, assegurando eficiência e confiabilidade em projetos no ambiente fabril',
     experience: []
   }
