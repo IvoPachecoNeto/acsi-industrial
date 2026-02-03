@@ -44,7 +44,7 @@ const Hero: React.FC<HeroProps> = ({ onProjectsClick }) => {
                 <span className="text-2xl font-black text-[#A32A26]">100+</span>
                 <span className="ml-2 text-xs font-bold text-slate-500 uppercase">Projetos Concluídos</span>
              </button>
-             <h2 className="text-lg md:text-xl font-medium text-slate-600">Soluções em Engenharia</h2>
+             <h2 className="text-lg md:text-xl font-medium text-slate-600">Soluções Industriais</h2>
           </div>
 
           <h1 className="text-4xl md:text-6xl font-black text-[#2D3E50] leading-tight mb-8">
@@ -72,7 +72,7 @@ const Hero: React.FC<HeroProps> = ({ onProjectsClick }) => {
               </div>
               <h3 className="text-white text-3xl font-bold mb-4 uppercase">ACSI INDUSTRIAL LTDA.</h3>
               <p className="text-red-100 text-lg font-light leading-relaxed">
-                Transformamos ideias em soluções industriais inteligentes e eficazes, com foco em eficiência, qualidade e cumprimento rigoroso de prazos.
+                Transformamos ideias em soluções industriais inteligentes e eficazes, com foco em eficiência, qualidade e cumprimento de prazos.
               </p>
               <div className="mt-8 flex gap-4">
                  <div className="w-12 h-1 bg-white/20"></div>
