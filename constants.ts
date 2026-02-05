@@ -95,14 +95,6 @@ id: 'maquinas',
 
 export const TEAM = [
   {
-    name: 'Henri Udo Bostelmann Filho',
-    role: 'Engenheiro Mecânico',
-    // Foto Link: Homem de negócios / Engenheiro
-    image:  'https://preview.redd.it/acsi-industrieal-v0-sjcf32lwobeg1.jpg?width=640&crop=smart&auto=webp&s=7bfe505211ad4ea139277f2f1558280064fb9332',
-    bio: 'Sou engenheiro mecânico com pós-graduação em Engenharia de Segurança do Trabalho e mais de 15 anos de experiência na gestão e execução de projetos voltados à melhoria de processos de fabricação. Atuei em diferentes segmentos industriais, liderando iniciativas que geraram avanços significativos em eficiência operacional e qualidade. Trabalho desde a concepção até a entrega final de projetos, incluindo definição técnica, fabricação, montagem, instalação e startup. Desenvolvi máquinas especiais, gabaritos, dispositivos de solda, sistemas de manipulação e outros meios de produção, sempre com foco em inovação, segurança e melhoria contínua. Tenho perfil analítico, visão sistêmica e forte atuação prática no chão de fábrica, integrando tecnologia, produtividade e sustentabilidade aos processos',
-    experience: []
-  },
-  {
     name: 'Henrique Kaston Tobler',
     role: 'Engenheiro Mecânico',
     // Foto Link: Engenheiro / Profissional
@@ -110,6 +102,15 @@ export const TEAM = [
     bio: 'Sou Engenheiro Mecânico com sólida experiência no setor industrial, atuando em projetos técnicos, manutenção e gestão de obras. Trabalhei por mais de seis anos supervisionando obras de sistemas de refrigeração comercial, liderando equipes multidisciplinares nas áreas civil, mecânica e elétrica, garantindo a entrega completa e funcional das instalações. Também acumulo mais de cinco anos de experiência em instalações industriais, incluindo implantação de máquinas e equipamentos, construção de galpões, infraestrutura de utilidades e integração de células robotizadas. Minha atuação envolve a gestão de prazos, custos, qualidade e segurança, assegurando eficiência e confiabilidade em projetos no ambiente fabril',
     experience: []
   }
+  {
+    name: 'Henri Udo Bostelmann Filho',
+    role: 'Engenheiro Mecânico',
+    // Foto Link: Homem de negócios / Engenheiro
+    image:  'https://preview.redd.it/acsi-industrieal-v0-sjcf32lwobeg1.jpg?width=640&crop=smart&auto=webp&s=7bfe505211ad4ea139277f2f1558280064fb9332',
+    bio: 'Sou engenheiro mecânico com pós-graduação em Engenharia de Segurança do Trabalho e mais de 15 anos de experiência na gestão e execução de projetos voltados à melhoria de processos de fabricação. Atuei em diferentes segmentos industriais, liderando iniciativas que geraram avanços significativos em eficiência operacional e qualidade. Trabalho desde a concepção até a entrega final de projetos, incluindo definição técnica, fabricação, montagem, instalação e startup. Desenvolvi máquinas especiais, gabaritos, dispositivos de solda, sistemas de manipulação e outros meios de produção, sempre com foco em inovação, segurança e melhoria contínua. Tenho perfil analítico, visão sistêmica e forte atuação prática no chão de fábrica, integrando tecnologia, produtividade e sustentabilidade aos processos',
+    experience: []
+  },
+
 ];
 
 export const CLIENTS: string[] = [];
