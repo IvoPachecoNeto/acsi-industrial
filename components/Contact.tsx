@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 
-// E-mail configurado para recebimento (Fácil de alterar aqui)
+// E-mail configurado para recebimento
 const RECIPIENT_EMAIL = "ivopacheconeto1237@gmail.com";
 
 const Contact: React.FC = () => {
@@ -21,19 +20,23 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Criação do link mailto com os dados do formulário
-    const subjectLine = encodeURIComponent(`Orçamento Site ACSI: ${formData.subject} - ${formData.name}`);
-    const bodyContent = encodeURIComponent(
-      `Nome: ${formData.name}\n` +
-      `E-mail: ${formData.email}\n` +
-      `Assunto: ${formData.subject}\n\n` +
-      `Mensagem:\n${formData.message}`
-    );
+    // Montagem do Assunto
+    const subjectLine = `Orçamento Site ACSI: ${formData.subject} - ${formData.name}`;
+    
+    // Montagem do Corpo do E-mail (O uso de quebras de linha reais dentro da crase ajuda na formatação)
+    const bodyContent = `Olá, gostaria de solicitar um orçamento.
 
-    const mailtoUrl = `mailto:${RECIPIENT_EMAIL}?subject=${subjectLine}&body=${bodyContent}`;
+Nome: ${formData.name}
+E-mail de Contato: ${formData.email}
+Assunto: ${formData.subject}
 
-    // CORREÇÃO: Usar window.location.href para mailto evita a tela branca.
-    // O navegador entende que é uma ação externa e não navega para fora da página atual visualmente.
+Mensagem:
+${formData.message}`;
+
+    // Geramos a URL final codificando os componentes para evitar erros de caracteres especiais
+    const mailtoUrl = `mailto:${RECIPIENT_EMAIL}?subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(bodyContent)}`;
+
+    // Redirecionamento para o gerenciador de e-mail
     window.location.href = mailtoUrl;
 
     setSubmitted(true);
@@ -45,21 +48,16 @@ const Contact: React.FC = () => {
 
   const handlePhoneClick = (e: React.MouseEvent<HTMLAnchorElement>, phoneNumber: string) => {
     e.preventDefault();
-    // Verifica se é dispositivo móvel através do User Agent
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     
     if (isMobile) {
-      // Se for celular, abre o discador
       window.location.href = `tel:+${phoneNumber}`;
     } else {
-      // Se for computador, abre o WhatsApp Web em nova aba
       window.open(`https://wa.me/${phoneNumber}`, '_blank');
     }
   };
 
   const callEmergency = () => {
-    // Redireciona especificamente para o WhatsApp do número solicitado para a equipe de resposta
-    // window.open é correto aqui pois wa.me é uma URL web válida (não gera tela branca vazia)
     window.open("https://wa.me/5541988339333", "_blank");
   };
 
