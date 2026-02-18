@@ -22,14 +22,15 @@ export const SERVICES: DetailedService[] = [
     icon: 'fa-file-signature',
     features: [
       'Laudos de esforços e capacidade de carga',
-      'Conformidade com NR-11',
       'Laudos de segurança NR-12',
       'Cálculos estruturais por elementos finitos',
-      'Emissão de ART'
+      'Laudos emitidos com ART'
     ],
     subProjects: [
-      { title: '...', image: 'https://i.redd.it/e7l980lwobeg1.jpg' },
-      { title: '...', image: 'https://i.redd.it/nllyq5lwobeg1.jpg' }
+      { title: '...', image: 'https://i.redd.it/t7xoqcoh4ahg1.png?width=1080&crop=smart&auto=webp&s=912ffb6832a4789ddf9691658c8bcac76b8200cd' },
+      { title: '...', image: 'https://i.redd.it/base-dados-v0-zeivesica9kg1.jpg?width=1080&crop=smart&auto=webp&s=70162fb960445e4b24332b92bfefd95471be37ec' }
+      { title: '...', image: 'https://i.redd.it/base-dados-v0-ieidyrica9kg1.jpg?width=1080&crop=smart&auto=webp&s=b469e10037cf28497981f2f5aaef6585a0d208b3' }
+    ]
     ]
   },
   {
@@ -40,33 +41,35 @@ export const SERVICES: DetailedService[] = [
     icon: 'fa-microchip',
     features: [
       'Dispositivos manuais e robotizados',
-      'Gabaritos dimensionais',
-      'Fixação pneumática/hidráulica',
+      'Gabaritos de controle dimencionais (PNP)',
+      'Sistemas pneumaticos/hidraulicos',
       'Monitoramento de peças',
       'Projetos normatizados'
     ],
     subProjects: [
       { title: 'Gabarito de Controle', image: 'https://i.redd.it/yfrtpykwobeg1.jpg' },
-      { title: 'Dispositivo de Controle', image: 'https://i.redd.it/ibxzr0lwobeg1.jpg' },
-      { title: 'Maquinas Especiais', image: 'https://i.redd.it/nahvj2lwobeg1.jpg' },
-      { title: 'Solda Projeção', image: 'https://i.redd.it/x92aa1lwobeg1.jpg' },
-      { title: 'Carros Industriais', image: 'https://i.redd.it/acsi-industrieal-v0-e7t7b1lwobeg1.jpg?width=591&format=pjpg&auto=webp&s=4982651d3c4c9bb4099096976a2205b913716262 },
+      { title: 'Dispositivo de Controle', image: 'https://i.redd.it/base-dados-v0-2aa6krica9kg1.jpg?width=886&format=pjpg&auto=webp&s=a6cacf2f8ac244167979735a6e0793baabd09c7e' },
       { title: 'Dispositivo de Solda', image: 'https://i.redd.it/cpoxb0lwobeg1.jpg' }
     ]
   },
   {
     id: 'projetos',
-    title: 'Laudos Técnicos',
-    description: 'Engenharia mecânica com modelagem 3D.',
+    title: 'Projetos de Engenharia ',
+    description: 'Engenharia mecânica e industrial com modelagem 3D detalhamento técnico e acompanhamento de fabricação',
     fullDescription: 'Serviço completo de engenharia industrial.',
     icon: 'fa-drafting-compass',
     features: [
       'Detalhamento técnico',
-      'Retrofitting',
       'Projetos industriais',
+      'desenvolvimento de soluçoes industriais',
+      'Retrofitting',
       'Consultoria'
     ],
-    subProjects: []
+   subProjects: [
+      { title: 'Gabarito de Controle', image: 'https://i.redd.it/acsi-industrieal-v0-nahvj2lwobeg1.jpg?width=751&format=pjpg&auto=webp&s=4fbcc9f546f20103f02a4978f64446a6d2421cfc' },
+      { title: 'Dispositivo de Controle', image: 'https://preview.redd.it/acsi-industrieal-v0-x92aa1lwobeg1.jpg?width=648&format=pjpg&auto=webp&s=aa91d665ea10e144b51f9826d3dacb32f7a6119f' },
+      { title: 'Dispositivo de Solda', image: 'https://i.redd.it/base-dados-v0-fqrxtrica9kg1.jpg?width=777&format=pjpg&auto=webp&s=e054b6979aea497d98d1ac57db536651aa792d00' }
+    ]
   },
   {
     id: 'maquinas',
@@ -74,7 +77,9 @@ export const SERVICES: DetailedService[] = [
     description: 'Máquinas sob medida para automação.',
     fullDescription: 'Soluções industriais exclusivas.',
     icon: 'fa-cogs',
-    features: [],
+    features: [
+      'Em um cenário industrial cada vez mais competitivo, a busca por eficiência, precisão e produtividade exige soluções que vão além dos equipamentos convencionais. É nesse contexto que as máquinas especiais se tornam fundamentais. Desenvolvidas de forma totalmente personalizada, elas são projetadas para atender necessidades específicas de cada processo produtivo, garantindo desempenho superior e resultados consistentes. Na ACSI Industrial, unimos engenharia avançada, experiência multidisciplinar e tecnologia de ponta para criar equipamentos exclusivos, desenhados exatamente conforme as demandas da sua operação. Cada projeto nasce a partir de um estudo detalhado do processo, identificando gargalos, oportunidades de automação e melhorias que possam elevar o nível de qualidade e segurança.'
+    ],
     subProjects: []
   }
 ];
