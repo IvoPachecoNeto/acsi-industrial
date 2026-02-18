@@ -34,7 +34,7 @@ export const SERVICES: DetailedService[] = [
   },
   {
     id: 'dispositivos',
-    title: 'Dispositivos e Gabaritos',
+    title: 'Processos Automatizados',
     description: 'Desenvolvimento de dispositivos de solda, montagem e gabaritos sob medida.',
     fullDescription: 'Projetamos dispositivos de alta precisão com repetibilidade industrial.',
     icon: 'fa-microchip',
@@ -46,12 +46,12 @@ export const SERVICES: DetailedService[] = [
       'Projetos normatizados'
     ],
     subProjects: [
-      { title: 'Gabarito de Precisão', image: 'https://i.redd.it/yfrtpykwobeg1.jpg' },
-      { title: 'Prensa Especial', image: 'https://i.redd.it/ibxzr0lwobeg1.jpg' },
-      { title: 'Gabarito Frontal', image: 'https://i.redd.it/nahvj2lwobeg1.jpg' },
-      { title: 'Render 3D', image: 'https://i.redd.it/x92aa1lwobeg1.jpg' },
-      { title: 'Mecanismo', image: 'https://i.redd.it/nllyq5lwobeg1.jpg' },
-      { title: 'Mesa Controle', image: 'https://i.redd.it/cpoxb0lwobeg1.jpg' }
+      { title: 'Gabarito de Controle', image: 'https://i.redd.it/yfrtpykwobeg1.jpg' },
+      { title: 'Dispositivo de Controle', image: 'https://i.redd.it/ibxzr0lwobeg1.jpg' },
+      { title: 'Maquinas Especiais', image: 'https://i.redd.it/nahvj2lwobeg1.jpg' },
+      { title: 'Solda Projeção', image: 'https://i.redd.it/x92aa1lwobeg1.jpg' },
+      { title: 'Carros Industriais', image: 'https://i.redd.it/acsi-industrieal-v0-e7t7b1lwobeg1.jpg?width=591&format=pjpg&auto=webp&s=4982651d3c4c9bb4099096976a2205b913716262 },
+      { title: 'Dispositivo de Solda', image: 'https://i.redd.it/cpoxb0lwobeg1.jpg' }
     ]
   },
   {
