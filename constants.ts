@@ -79,7 +79,11 @@ export const SERVICES: DetailedService[] = [
     features: [
       'Em um cenário industrial cada vez mais competitivo, a busca por eficiência, precisão e produtividade exige soluções que vão além dos equipamentos convencionais. É nesse contexto que as máquinas especiais se tornam fundamentais. Desenvolvidas de forma totalmente personalizada, elas são projetadas para atender necessidades específicas de cada processo produtivo, garantindo desempenho superior e resultados consistentes. Na ACSI Industrial, unimos engenharia avançada, experiência multidisciplinar e tecnologia de ponta para criar equipamentos exclusivos, desenhados exatamente conforme as demandas da sua operação. Cada projeto nasce a partir de um estudo detalhado do processo, identificando gargalos, oportunidades de automação e melhorias que possam elevar o nível de qualidade e segurança.'
     ],
-    subProjects: []
+     subProjects: [
+      { title: '', image: 'https://i.redd.it/acsi-industrieal-v0-nahvj2lwobeg1.jpg?width=751&format=pjpg&auto=webp&s=4fbcc9f546f20103f02a4978f64446a6d2421cfc' },
+      { title: '', image: 'https://i.redd.it/acsi-industrieal-v0-x92aa1lwobeg1.jpg?width=648&format=pjpg&auto=webp&s=aa91d665ea10e144b51f9826d3dacb32f7a6119f' },
+      
+    ]
   }
 ];
 
