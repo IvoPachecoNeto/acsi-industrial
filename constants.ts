@@ -28,9 +28,8 @@ export const SERVICES: DetailedService[] = [
     ],
     subProjects: [
       { title: '...', image: 'https://i.redd.it/t7xoqcoh4ahg1.png?width=1080&crop=smart&auto=webp&s=912ffb6832a4789ddf9691658c8bcac76b8200cd' },
-      { title: '...', image: 'https://i.redd.it/base-dados-v0-zeivesica9kg1.jpg?width=1080&crop=smart&auto=webp&s=70162fb960445e4b24332b92bfefd95471be37ec' }
-      { title: '...', image: 'https://i.redd.it/base-dados-v0-ieidyrica9kg1.jpg?width=1080&crop=smart&auto=webp&s=b469e10037cf28497981f2f5aaef6585a0d208b3' }
-    ]
+      { title: '...', image: 'https://i.redd.it/base-dados-v0-zeivesica9kg1.jpg?width=1080&crop=smart&auto=webp&s=70162fb960445e4b24332b92bfefd95471be37ec' },
+      { title: '...', image: 'https://i.redd.it/base-dados-v0-ieidyrica9kg1.jpg?width=1080&crop=smart&auto=webp&s=b469e10037cf28497981f2f5aaef6585a0d208b3' },
     ]
   },
   {
