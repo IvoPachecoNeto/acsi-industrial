@@ -129,14 +129,14 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'p5',
-    title: 'Manipulador elétrico',
+    title: 'Esteira de rolete',
     category: 'Logística',
-    imageUrl: 'https://i.redd.it/cpoxb0lwobeg1.jpg'
+    imageUrl: 'https://i.redd.it/base-dados-v0-fqrxtrica9kg1.jpg?width=777&format=pjpg&auto=webp&s=e054b6979aea497d98d1ac57db536651aa792d00'
   },
   {
     id: 'p6',
-    title: 'Gabarito dimensional',
+    title: 'gabarito de controle',
     category: 'Qualidade',
-    imageUrl: 'https://i.redd.it/x92aa1lwobeg1.jpg'
+    imageUrl: 'https://i.redd.it/acsi-industrieal-v0-cpoxb0lwobeg1.jpg?width=578&format=pjpg&auto=webp&s=b0adf7649ac23660f8689f5fd090a5b5b65a7073'
   }
 ];
