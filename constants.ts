@@ -67,7 +67,7 @@ export const SERVICES: DetailedService[] = [
    subProjects: [
       { title: 'Gabarito de Controle', image: 'https://i.redd.it/acsi-industrieal-v0-nahvj2lwobeg1.jpg?width=751&format=pjpg&auto=webp&s=4fbcc9f546f20103f02a4978f64446a6d2421cfc' },
       { title: 'Dispositivo de Controle', image: 'https://preview.redd.it/acsi-industrieal-v0-x92aa1lwobeg1.jpg?width=648&format=pjpg&auto=webp&s=aa91d665ea10e144b51f9826d3dacb32f7a6119f' },
-      { title: 'Dispositivo de Solda', image: 'https://i.redd.it/base-dados-v0-fqrxtrica9kg1.jpg?width=777&format=pjpg&auto=webp&s=e054b6979aea497d98d1ac57db536651aa792d00' }
+      { title: 'Esteira de roletes', image: 'https://i.redd.it/base-dados-v0-fqrxtrica9kg1.jpg?width=777&format=pjpg&auto=webp&s=e054b6979aea497d98d1ac57db536651aa792d00' }
     ]
   },
   {
