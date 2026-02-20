@@ -20,7 +20,7 @@ const Team: React.FC = () => {
             <div className="mt-12 space-y-4">
               <h4 className="font-bold text-slate-900 uppercase tracking-wider text-sm"></h4>
               <p className="text-slate-600 text-sm">
-                Atuação especializada em aeronaves clássicas e experimentais, com foco em reformas completas de célula, motor e aviônicos.
+                
               </p>
             </div>
           </div>
