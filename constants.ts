@@ -34,7 +34,7 @@ export const SERVICES: DetailedService[] = [
   },
   {
     id: 'dispositivos',
-    title: 'Processos Automatizados',
+    title: 'Dispositivos e Processos Automatizados',
     description: 'Desenvolvimento de dispositivos de solda, montagem e gabaritos sob medida.',
     fullDescription: 'Projetamos dispositivos de alta precisão com repetibilidade industrial.',
     icon: 'fa-microchip',
@@ -47,7 +47,7 @@ export const SERVICES: DetailedService[] = [
     ],
     subProjects: [
       { title: 'Gabarito de Controle', image: 'https://i.redd.it/yfrtpykwobeg1.jpg' },
-      { title: 'Dispositivo de Controle', image: 'https://i.redd.it/base-dados-v0-2aa6krica9kg1.jpg?width=886&format=pjpg&auto=webp&s=a6cacf2f8ac244167979735a6e0793baabd09c7e' },
+      { title: 'Projetos Mecanicos', image: 'https://i.redd.it/base-dados-v0-2aa6krica9kg1.jpg?width=886&format=pjpg&auto=webp&s=a6cacf2f8ac244167979735a6e0793baabd09c7e' },
       { title: 'Dispositivo de Solda', image: 'https://i.redd.it/cpoxb0lwobeg1.jpg' }
     ]
   },
