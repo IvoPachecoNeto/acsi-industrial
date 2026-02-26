@@ -21,7 +21,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ service, onBack, onContac
           onClick={onBack}
           className="mb-12 flex items-center gap-2 text-[#A32A26] font-bold uppercase tracking-widest text-sm hover:underline"
         >
-          <i className="fa-solid fa-arrow-left"></i> Voltar aos Serviços
+          <i className="fa-solid fa-arrow-left"></i> Voltar ao inicio
         </button>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
