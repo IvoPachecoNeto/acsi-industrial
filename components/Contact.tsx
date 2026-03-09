@@ -37,7 +37,7 @@ ${formData.message}`;
     const mailtoUrl = `mailto:${RECIPIENT_EMAIL}?subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(bodyContent)}`;
 
     // Redirecionamento para o gerenciador de e-mail
-    window.location.href = mailtoUrl;
+    window.open(mailtoUrl);
 
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 5000);
