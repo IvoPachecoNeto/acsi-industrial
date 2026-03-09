@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // E-mail configurado para recebimento
-const RECIPIENT_EMAIL = "ivopacheconeto1237@gmail.com";
+const RECIPIENT_EMAIL = "henrique.tobler@acsiind.onmicrosoft.com";
 
 const Contact: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
